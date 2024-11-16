@@ -57,6 +57,6 @@ def run_inference(request):
 
     storage_uri = repo_name
 
-    logger.log(f"Git repository downloaded a: {storage_uri}")
+    logger.log(f"Git repository downloaded at : {storage_uri}")
 
     return json.dumps({"storage_uri": storage_uri})
