@@ -1,0 +1,5 @@
+functions-framework==3.5.0
+google-cloud-aiplatform >= 1.31.0
+google-cloud-logging
+google-cloud-storage
+vertexai
